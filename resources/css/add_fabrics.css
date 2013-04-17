@@ -1,0 +1,32 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 980px;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  margin: 60px 0;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 60px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+.form-horizontal .control-label{
+	text-align:left; width:180px;
+}
+#referenceDiv .controls .help-inline, #articleDiv .controls .help-inline, #weaveDiv .controls .help-inline, #gsmDiv .controls .help-inline, #blendDiv .controls .help-inline, #tensileStrengthDiv .controls .help-inline, #tearStrengthDiv .controls .help-inline, #typeDiv .controls .help-inline, #categoryDiv .controls .help-inline, #featureDiv .controls .help-inline, #usesDiv .controls .help-inline, #smallPictureDiv .controls .help-inline, #largePictureDiv .controls .help-inline{
+	display:none;
+}

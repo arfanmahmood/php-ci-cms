@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /sapphiremills/site/cms/
+
+RewriteCond $1 !^(index\.php|resources|uploads|tmp|js|img|css|swf|\.txt|tinymce\.txt|favicon\.ico)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) /sapphiremills/site/cms/index.php?/$1 [L]
