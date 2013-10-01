@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= "http://".$_SERVER['HTTP_HOST']."/sapphiremills/site/cms/";
+$config['base_url']	= "http://".$_SERVER['HTTP_HOST']."/php-ci-cms/";
 
 /*
 |--------------------------------------------------------------------------
