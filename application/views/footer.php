@@ -13,8 +13,9 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<?php echo base_url(); ?>resources/js/jquery.js"></script>
-    <script src="<?php echo base_url(); ?>resources/js/bootstrap-transition.js"></script>
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="<?php echo base_url(); ?>resources/js/bootstrap.js"></script>
+	<script src="<?php echo base_url(); ?>resources/js/bootstrap-transition.js"></script>
     <script src="<?php echo base_url(); ?>resources/js/bootstrap-alert.js"></script>
     <script src="<?php echo base_url(); ?>resources/js/bootstrap-modal.js"></script>
     <script src="<?php echo base_url(); ?>resources/js/bootstrap-dropdown.js"></script>

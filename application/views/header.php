@@ -10,7 +10,7 @@
     <!-- Le styles -->
     <link href="<?php echo base_url(); ?>resources/css/bootstrap.css" rel="stylesheet" />
     <link href="<?php echo base_url(); ?>resources/css/<?php echo $base_css ?>" rel="stylesheet" />
-    <link href="<?php echo base_url(); ?>resources/css/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>resources/css/bootstrap-theme.css" rel="stylesheet" />
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
